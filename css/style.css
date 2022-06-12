@@ -1,0 +1,66 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#reset{
+    display: block;
+    margin: auto;
+    color: red;
+}
+
+table{
+    margin: auto;
+    width:  50%;
+    height: 50%;
+    display: grid;
+
+}
+
+table *{
+    margin-left: 27%;
+    text-align: center;
+    grid-template-columns: 15% 15% 15%;
+    grid-template-rows: 15% 15% 15%;
+}
+
+td{
+    border: 1px solid black;
+    padding: 50px
+}
+
+#turn{
+    display: block;
+    margin-top: 5%;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+}
+
+#arrow{
+    display: block;
+    margin-left: 37%;
+    font-weight: bold;
+}
+
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
